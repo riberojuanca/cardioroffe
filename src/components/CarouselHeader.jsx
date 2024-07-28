@@ -63,13 +63,13 @@ const CarouselHeader = () => {
               <div className="rounded-lg">
                 <Card className="flex items-center justify-center w-screen h-80 bg-black  text-white shadow-none border-none object-cover">
                   <CardContent className="flex justify-center gap-8 items-center text-center">
-                    <Image
+                    <img
                       className="h-100 w-auto object-contain "
                       src={image}
                       width={640}
                       height={640}
                       alt=""
-                    ></Image>
+                    ></img>
                     <div className="w-1/3 flex flex-col items-start text-left">
                       <h2 className=" sm:text-lg text-wrap">{title}</h2>
                       <p className=" text-xs sm:text-sm text-wrap">

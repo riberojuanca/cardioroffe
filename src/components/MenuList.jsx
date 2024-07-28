@@ -29,13 +29,13 @@ const MenuList = () => {
                     className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted p-6 no-underline outline-none focus:shadow-md"
                     href="/"
                   >
-                    <Image
+                    <img
                       className="h-auto rounded-md"
                       src="/prueba01.jpg"
                       alt="Imagen de presentación"
                       width={640}
                       height={960}
-                    ></Image>
+                    ></img>
                     <div className="mb-2 mt-4 text-lg font-medium">
                       CardioRoffe
                     </div>
