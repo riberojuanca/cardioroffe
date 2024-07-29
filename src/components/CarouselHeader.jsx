@@ -44,9 +44,9 @@ export const dataCarouselTop = [
 const CarouselHeader = () => {
   const router = useRouter();
   return (
-    <div className="dark:bg-secondary h-80">
+    <section className="mt-24">
       <Carousel
-        className="flex justify-center items-center h-full w-screen sm:w-full sm:max-w-7xl  sm:rounded-lg"
+        className="sm:w-full p-4 sm:bg-black "
         plugins={[
           Autoplay({
             delay: 4000,
@@ -58,13 +58,13 @@ const CarouselHeader = () => {
             <CarouselItem
               key={id}
               onClick={() => router.push(link)}
-              className=" lg:w-auto cursor-pointer"
+              className="lg:w-screen cursor-pointer"
             >
               <div className="sm:rounded-lg">
-                <Card className="flex items-center justify-center w-screen sm:w-fit sm:h-80 mt-40 sm:mt-0 bg-black  text-white shadow-none border-none object-contain">
+                <Card className="flex items-center justify-center sm:w-fit sm:h-80 sm:mt-0 bg-black  text-white shadow-none border-none">
                   <CardContent className="flex sm:flex-row flex-col justify-start gap-6 items-center text-center">
                     <img
-                      className="h-fit w-auto pt-6 sm:pt-8 pb-2 sm:h-80 sm:w-3/6 object-cover rounded-xl"
+                      className="h-80 sm:h-fit sm:pt-8 pt-6 sm:h-80 sm:w-3/6 object-cover "
                       src={image}
                       width={640}
                       height={640}
@@ -83,7 +83,7 @@ const CarouselHeader = () => {
           ))}
         </CarouselContent>
       </Carousel>
-    </div>
+    </section>
   );
 };
 
