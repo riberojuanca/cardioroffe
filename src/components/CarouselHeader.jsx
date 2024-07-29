@@ -44,9 +44,9 @@ export const dataCarouselTop = [
 const CarouselHeader = () => {
   const router = useRouter();
   return (
-    <div className="bg-black dark:bg-secondary h-80">
+    <div className="dark:bg-secondary h-80">
       <Carousel
-        className="w-screen"
+        className="flex justify-center items-center h-full w-screen sm:w-full sm:max-w-7xl  sm:rounded-lg"
         plugins={[
           Autoplay({
             delay: 4000,
@@ -58,19 +58,19 @@ const CarouselHeader = () => {
             <CarouselItem
               key={id}
               onClick={() => router.push(link)}
-              className=" cursor-pointer"
+              className=" lg:w-auto cursor-pointer"
             >
-              <div className="rounded-lg">
-                <Card className="flex items-center justify-center w-screen h-80 bg-black  text-white shadow-none border-none object-cover">
-                  <CardContent className="flex justify-center gap-8 items-center text-center">
+              <div className="sm:rounded-lg">
+                <Card className="flex items-center justify-center w-screen sm:w-fit sm:h-80 mt-40 sm:mt-0 bg-black  text-white shadow-none border-none object-contain">
+                  <CardContent className="flex sm:flex-row flex-col justify-start gap-6 items-center text-center">
                     <img
-                      className="h-100 w-auto object-contain "
+                      className="h-fit w-auto pt-6 sm:pt-8 pb-2 sm:h-80 sm:w-3/6 object-cover rounded-xl"
                       src={image}
                       width={640}
                       height={640}
                       alt=""
                     ></img>
-                    <div className="w-1/3 flex flex-col items-start text-left">
+                    <div className="sm:w-1/3 w-full flex flex-col items-start text-left">
                       <h2 className=" sm:text-lg text-wrap">{title}</h2>
                       <p className=" text-xs sm:text-sm text-wrap">
                         {description}
