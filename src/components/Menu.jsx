@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Menu = () => {
   return (
-    <header className="z-50 px-4 flex justify-evenly items-center h-24 bg-white fixed w-full top-0 gap-8">
+    <header className="z-50 hidden lg:flex px-4 justify-evenly items-center h-24 bg-white fixed w-full top-0 gap-8">
       <div>
         <div className="flex items-center flex-col">
           <Link href="/">
