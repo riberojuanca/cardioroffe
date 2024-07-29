@@ -46,7 +46,7 @@ const CarouselHeader = () => {
   return (
     <section className="mt-24">
       <Carousel
-        className="sm:w-full p-4 sm:bg-black "
+        className="sm:w-full p-4 sm:p-0 sm:bg-black "
         plugins={[
           Autoplay({
             delay: 4000,
@@ -60,11 +60,11 @@ const CarouselHeader = () => {
               onClick={() => router.push(link)}
               className="lg:w-screen cursor-pointer"
             >
-              <div className="sm:rounded-lg">
-                <Card className="flex items-center justify-center sm:w-fit sm:h-80 sm:mt-0 bg-black  text-white shadow-none border-none">
-                  <CardContent className="flex sm:flex-row flex-col justify-start gap-6 items-center text-center">
+              <div className="sm:rounded-lg ">
+                <Card className=" flex items-center justify-center sm:w-fit sm:h-80 sm:mt-0 bg-black  text-white shadow-none border-none">
+                  <CardContent className="flex sm:flex-row flex-col justify-center gap-6 items-center text-center ">
                     <img
-                      className="h-80 sm:h-fit sm:pt-8 pt-6 sm:h-80 sm:w-3/6 object-cover "
+                      className="sm:rounded-xl h-80 sm:h-60 pt-6 sm:pt-0 sm:mt-6 sm:w-2/5 object-cover"
                       src={image}
                       width={640}
                       height={640}
