@@ -64,7 +64,7 @@ const CarouselHeader = () => {
                 <Card className=" flex items-center justify-center sm:w-fit sm:h-80 sm:mt-0 bg-black  text-white shadow-none border-none">
                   <CardContent className="flex sm:flex-row flex-col justify-center gap-6 items-center text-center ">
                     <img
-                      className="sm:rounded-xl h-80 sm:h-60 pt-6 sm:pt-0 sm:mt-6 sm:w-2/5 object-cover"
+                      className="rounded-md sm:rounded-xl h-80 sm:h-60 mt-6 sm:pt-0 sm:mt-6 sm:w-2/5 object-cover"
                       src={image}
                       width={640}
                       height={640}
