@@ -72,3 +72,20 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+.sectionPage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  gap: 2rem;
+  margin-top: 5rem;
+}
+
+.articlePage {
+  padding-inline: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 2rem;
+}

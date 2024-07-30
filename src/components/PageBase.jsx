@@ -12,7 +12,7 @@ export function PageBase({ title, imagesrc, ...texts }) {
           />
         </div>
         <div className="w-full">
-          <h1>{title}</h1>
+          <h1 className="pb-2">{title}</h1>
           {Object.values(texts).map((text, index) => (
             <p key={index}>{text}</p>
           ))}

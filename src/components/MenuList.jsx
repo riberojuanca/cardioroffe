@@ -199,17 +199,20 @@ const FAQs = [
   {
     title: "FAQs Vaginoplastia",
     href: "/faqs-vaginoplastia",
-    description: "Descripción de FAQs Vaginoplastia",
+    description:
+      "Dudas más frecuentes en personas sobre pasar por una vaginoplastia.",
   },
   {
     title: "FAQs Faloplastia",
     href: "/faqs-faloplastia",
-    description: "Descripción de FAQs Faloplastia",
+    description:
+      "Dudas más frecuentes en personas sobre pasar por una faloplastia.",
   },
   {
     title: "FAQs Mastectomía",
     href: "/faqs-mastectomia",
-    description: "Descripción de FAQs Mastectomia",
+    description:
+      "Dudas más frecuentes en personas sobre pasar por una mastectomía.",
   },
 ];
 
